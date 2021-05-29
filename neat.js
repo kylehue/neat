@@ -298,7 +298,7 @@ class Neat {
 			//Properties
 			this.nodes = options.nodes || [];
 			this.connections = options.connections || [];
-			this.fitness = options.fitness || Math.round(Math.random() * 100);
+			this.fitness = options.fitness || 0;
 
 			if (!options.cloned) {
 				//Create nodes from each layer
