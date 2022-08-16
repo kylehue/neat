@@ -22,11 +22,11 @@ let neat = new Neat(input, hidden, output, options);
 ```js
 {
   // Total number of genomes
-  populationSize: 20, 
+  populationSize: 20,
   // Determines how many genomes should be mutated in a generation
-  mutationRate: 0.25, 
+  mutationRate: 0.25,
   // Maximum number of generations a species can exist without making any improvements
-  maxStagnation: 30 
+  maxStagnation: 30
 }
 ```
 ### Feedforward & Fitness
@@ -39,7 +39,7 @@ class Turtle {
   constructor(genome) {
     this.brain = genome;
   }
-  
+
   eat() {
     this.brain.fitness++; // Add fitness score
   }
@@ -68,7 +68,7 @@ function evolve() {
 }
 ```
 ### toJSON
-You can create a pre-trained model by using toJSON()
+You can create pre-trained models by using toJSON()
 ```js
 let neat = new Neat(6, 1, 3, {
   populationSize: 10
@@ -78,7 +78,7 @@ let trained = neat.toJSON();
 download(trained);
 ```
 ### fromJSON & import
-And you can import a pre-trained model by using fromJSON() and import()
+And you can import pre-trained models by using fromJSON() and import()
 ```js
 let neat = new Neat(6, 1, 3, {
   populationSize: 10
