@@ -1,6 +1,6 @@
 {
   "name": "@kylehue/neat",
-  "version": "1.0.1",
+  "version": "1.0.11",
   "description": "A very simple NEAT Algorithm implementation in JavaScript.",
   "main": "index.js",
   "publishConfig": {
