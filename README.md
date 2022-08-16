@@ -68,7 +68,7 @@ function evolve() {
 }
 ```
 ### toJSON
-You can create pre-trained models by using toJSON()
+You can create pre-trained models by using `toJSON()`
 ```js
 let neat = new Neat(6, 1, 3, {
   populationSize: 10
@@ -78,7 +78,7 @@ let trained = neat.toJSON();
 download(trained);
 ```
 ### fromJSON & import
-And you can import pre-trained models by using fromJSON() and import()
+And you can import pre-trained models by using `fromJSON()` and `import()`
 ```js
 let neat = new Neat(6, 1, 3, {
   populationSize: 10
