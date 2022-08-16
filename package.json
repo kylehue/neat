@@ -1,0 +1,26 @@
+{
+  "name": "@kylehue/neat",
+  "version": "1.0.0",
+  "description": "A very simple NEAT Algorithm implementation in JavaScript.",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylehue/neat.git"
+  },
+  "keywords": [
+    "AI",
+    "neural network"
+  ],
+  "author": "kylehue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylehue/neat/issues"
+  },
+  "homepage": "https://github.com/kylehue/neat#readme"
+}
